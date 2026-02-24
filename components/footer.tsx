@@ -14,7 +14,7 @@ export function Footer() {
                 <Headphones className="w-5 h-5 text-primary" />
               </div>
               <span className="font-mono text-lg font-bold text-foreground">
-                SoundFix<span className="text-primary">Pro</span>
+                Viraj <span className="text-primary">Telecom</span>
               </span>
             </a>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-sm">
@@ -54,7 +54,7 @@ export function Footer() {
         {/* Divider */}
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            {'© 2011 - 2026 SoundFixPro. All rights reserved.'}
+            {'© 2011 - 2026 Viraj Telecom. All rights reserved.'}
           </p>
           <div className="flex items-end gap-1">
             {Array.from({ length: 12 }).map((_, i) => (
