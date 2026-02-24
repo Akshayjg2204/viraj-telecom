@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowDown, Wrench, Zap } from "lucide-react"
+import { ArrowDown, Wrench, Zap, ShoppingBag } from "lucide-react"
 import Image from "next/image"
 
 export function HeroSection() {
@@ -59,7 +59,8 @@ export function HeroSection() {
             className="text-4xl sm:text-5xl md:text-7xl font-mono font-bold leading-tight tracking-tight text-balance"
           >
             Expert Electronics{" "}
-            <span className="text-primary">&</span> Headphone Repair
+            <span className="text-primary">Repair</span>{" "}
+            <span className="text-primary">&</span> Brand New Products
           </motion.h1>
 
           {/* Subheadline */}
@@ -69,7 +70,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl text-pretty"
           >
-            Fast, reliable, and professional repair services. Specializing in Sennheiser headsets and Call Center setups.
+            Fast, reliable, and professional repair services. We also design and sell brand new electronics and headphones. Specializing in Sennheiser headsets and Call Center setups.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -88,6 +89,15 @@ export function HeroSection() {
                 Book a Repair
               </span>
               <div className="absolute inset-0 bg-primary/80 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+            </a>
+            <a
+              href="#products"
+              className="group relative px-8 py-4 rounded-lg border border-primary/40 bg-primary/5 text-foreground font-semibold text-base hover:bg-primary/10 hover:border-primary/60 transition-all duration-300 overflow-hidden"
+            >
+              <span className="relative z-10 flex items-center gap-2">
+                <ShoppingBag className="w-5 h-5 text-primary" />
+                Shop Products
+              </span>
             </a>
             <a
               href="#services"

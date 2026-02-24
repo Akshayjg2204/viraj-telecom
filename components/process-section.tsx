@@ -2,32 +2,38 @@
 
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
-import { Search, Wrench, CheckCircle, Truck } from "lucide-react"
+import { Search, Wrench, CheckCircle, Truck, Lightbulb, Package } from "lucide-react"
 
 const steps = [
   {
     icon: Search,
     number: "01",
-    title: "Diagnose",
-    description: "We carefully inspect and diagnose the issue with your device using professional-grade tools.",
+    title: "Diagnose / Consult",
+    description: "We inspect and diagnose your device, or help you find the perfect new product for your needs.",
+  },
+  {
+    icon: Lightbulb,
+    number: "02",
+    title: "Design / Source",
+    description: "We design custom products from scratch, source premium components, and plan the best solution.",
   },
   {
     icon: Wrench,
-    number: "02",
-    title: "Repair",
-    description: "Our expert technicians perform precision repairs using quality replacement parts.",
+    number: "03",
+    title: "Build / Repair",
+    description: "Our expert technicians perform precision repairs or assemble brand new products with quality parts.",
   },
   {
     icon: CheckCircle,
-    number: "03",
-    title: "Test",
-    description: "Every repair goes through rigorous quality testing to ensure perfect functionality.",
+    number: "04",
+    title: "Quality Test",
+    description: "Every repair and new product goes through rigorous quality testing to ensure perfect functionality.",
   },
   {
-    icon: Truck,
-    number: "04",
-    title: "Deliver",
-    description: "Your device is returned to you in perfect working condition, as good as new.",
+    icon: Package,
+    number: "05",
+    title: "Deliver / Ship",
+    description: "Your repaired device or new product is packaged and delivered to you in perfect working condition.",
   },
 ]
 
@@ -59,9 +65,9 @@ export function ProcessSection() {
         </div>
 
         {/* Steps */}
-        <div className="relative grid md:grid-cols-4 gap-8">
+        <div className="relative grid grid-cols-2 md:grid-cols-5 gap-8">
           {/* Connecting line */}
-          <div className="hidden md:block absolute top-16 left-[12.5%] right-[12.5%] h-px bg-border" />
+          <div className="hidden md:block absolute top-16 left-[10%] right-[10%] h-px bg-border" />
 
           {steps.map((step, index) => {
             const Icon = step.icon

@@ -59,7 +59,7 @@ export function ContactSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mt-4 text-3xl md:text-5xl font-mono font-bold text-balance"
           >
-            Ready to <span className="text-primary">Fix</span> It?
+            Ready to <span className="text-primary">Connect</span>?
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -67,7 +67,7 @@ export function ContactSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-4 text-muted-foreground text-lg text-pretty"
           >
-            Drop by our shop or give us a call. We are always ready to help.
+            Drop by our shop to get a repair, explore our products, or give us a call. We are always ready to help.
           </motion.p>
         </div>
 
@@ -123,10 +123,10 @@ export function ContactSection() {
           <div className="relative p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-6 border border-primary/20 rounded-2xl">
             <div>
               <h3 className="text-2xl md:text-3xl font-mono font-bold text-foreground">
-                Need urgent repair?
+                Need urgent repair or want to buy?
               </h3>
               <p className="mt-2 text-muted-foreground">
-                Walk in during business hours or call us for an immediate consultation.
+                Walk in during business hours to get a repair, browse our products, or call us for an immediate consultation.
               </p>
             </div>
             <a

@@ -2,13 +2,13 @@
 
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
-import { Star, Shield, Clock, Award } from "lucide-react"
+import { Star, Shield, Clock, Award, Package } from "lucide-react"
 
 const stats = [
   { icon: Clock, value: "13+", label: "Years of Experience", delay: 0 },
   { icon: Star, value: "4.3", label: "Star Rating", delay: 0.1 },
   { icon: Shield, value: "35+", label: "Happy Customers", delay: 0.2 },
-  { icon: Award, value: "100%", label: "Satisfaction", delay: 0.3 },
+  { icon: Package, value: "500+", label: "Products Sold", delay: 0.3 },
 ]
 
 export function AboutSection() {
@@ -32,13 +32,14 @@ export function AboutSection() {
               <span className="text-sm font-mono uppercase tracking-widest text-primary">About Us</span>
               <h2 className="mt-4 text-3xl md:text-5xl font-mono font-bold leading-tight text-balance">
                 A Decade of{" "}
-                <span className="text-primary">Trusted</span> Repairs
+                <span className="text-primary">Trusted</span> Repairs{" "}
+                <span className="text-primary">&</span> Products
               </h2>
               <p className="mt-6 text-muted-foreground leading-relaxed text-lg text-pretty">
-                Established in 2011, we have earned the trust of the Kamothe community with over a decade of professional electronics and headphone repair services. Our team of skilled technicians brings precision, expertise, and genuine care to every repair.
+                Established in 2011, we have earned the trust of the Kamothe community with over a decade of professional electronics and headphone repair services. Beyond repairs, we also create and sell brand new electronics and audio products crafted with the same precision.
               </p>
               <p className="mt-4 text-muted-foreground leading-relaxed text-pretty">
-                With a stellar 4.3-star rating from over 35 local customers, we pride ourselves on delivering quality work that speaks for itself. Whether it is a high-end Sennheiser headset or a complete call center infrastructure, we handle it all with the same dedication.
+                With a stellar 4.3-star rating from over 35 local customers, we pride ourselves on delivering quality work and products that speak for themselves. Whether it is a high-end Sennheiser headset repair, a complete call center infrastructure, or purchasing brand new gear, we handle it all with the same dedication.
               </p>
             </motion.div>
 

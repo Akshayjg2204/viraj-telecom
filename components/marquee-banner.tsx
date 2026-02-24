@@ -7,11 +7,14 @@ const marqueeItems = [
   "Sennheiser Specialist",
   "Call Center Setup",
   "Wire Repair",
+  "Brand New Products",
   "Sound Diagnostics",
   "Connector Repair",
+  "Custom Audio Devices",
   "Electronics Fix",
   "Fast Turnaround",
-  "Premium Service",
+  "Premium Headphones",
+  "Product Sales",
 ]
 
 export function MarqueeBanner() {

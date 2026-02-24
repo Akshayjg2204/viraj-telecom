@@ -18,7 +18,7 @@ export function Footer() {
               </span>
             </a>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-sm">
-              Your trusted partner for electronics and headphone repair since 2011. Precision, quality, and reliability in every repair.
+              Your trusted partner for electronics repair, brand new products, and audio solutions since 2011. Precision, quality, and reliability in everything we do.
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-mono uppercase tracking-widest text-primary mb-4">Quick Links</h4>
             <ul className="space-y-3">
-              {["Home", "About", "Services", "Contact"].map((link) => (
+              {["Home", "About", "Services", "Products", "Contact"].map((link) => (
                 <li key={link}>
                   <a
                     href={`#${link.toLowerCase()}`}

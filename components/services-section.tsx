@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion"
 import { useRef, useState } from "react"
-import { Headphones, PhoneCall, Cpu, ArrowRight, Check } from "lucide-react"
+import { Headphones, PhoneCall, Cpu, ArrowRight, Check, ShoppingBag } from "lucide-react"
 import Image from "next/image"
 
 const services = [
@@ -45,6 +45,19 @@ const services = [
     ],
     accent: "from-chart-4/20 to-chart-4/5",
   },
+  {
+    icon: ShoppingBag,
+    title: "Brand New Products",
+    description: "We design and sell brand new electronics and audio products, built with the same precision we bring to our repairs.",
+    image: "/images/service-products.jpg",
+    features: [
+      "Custom-built audio devices",
+      "Premium headphones & accessories",
+      "Certified quality products",
+      "Competitive pricing",
+    ],
+    accent: "from-chart-5/20 to-chart-5/5",
+  },
 ]
 
 export function ServicesSection() {
@@ -76,7 +89,7 @@ export function ServicesSection() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mt-4 text-3xl md:text-5xl font-mono font-bold text-balance"
           >
-            What We <span className="text-primary">Fix</span>
+            What We <span className="text-primary">Offer</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -84,12 +97,12 @@ export function ServicesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-4 text-muted-foreground text-lg text-pretty"
           >
-            From premium headphones to full call center infrastructure, we bring precision and care to every repair.
+            From premium headphone repairs to brand new product sales and full call center infrastructure, we bring precision and care to everything we do.
           </motion.p>
         </div>
 
         {/* Service Cards */}
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon
             return (

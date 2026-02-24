@@ -7,8 +7,8 @@ const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const _spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space-grotesk" });
 
 export const metadata: Metadata = {
-  title: 'SoundFix Pro - Expert Electronics & Headphone Repair in Kamothe',
-  description: 'Fast, reliable, and professional electronics and headphone repair services in Kamothe, Navi Mumbai. Specializing in Sennheiser headsets and Call Center setups since 2011.',
+  title: 'SoundFix Pro - Electronics Repair, Products & Solutions',
+  description: 'Professional electronics and headphone repair, brand new product sales, and call center solutions in Navi Mumbai. Specializing in Sennheiser headsets since 2011.',
   generator: 'v0.app',
   icons: {
     icon: [
