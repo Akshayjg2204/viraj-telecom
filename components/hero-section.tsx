@@ -59,16 +59,7 @@ export function HeroSection() {
             className="text-4xl sm:text-5xl md:text-7xl font-mono font-bold leading-tight tracking-tight text-balance"
           >
             Expert Electronics{" "}
-            <span className="text-primary">&</span> Headphone Repair{" "}
-            <span className="relative inline-block">
-              <span className="text-primary">in Kamothe</span>
-              <motion.span
-                initial={{ scaleX: 0 }}
-                animate={{ scaleX: 1 }}
-                transition={{ duration: 0.8, delay: 1 }}
-                className="absolute -bottom-2 left-0 right-0 h-1 bg-primary/40 rounded-full origin-left"
-              />
-            </span>
+            <span className="text-primary">&</span> Headphone Repair
           </motion.h1>
 
           {/* Subheadline */}
