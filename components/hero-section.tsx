@@ -38,7 +38,7 @@ export function HeroSection() {
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-float z-0" />
       <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-primary/5 rounded-full blur-3xl animate-float z-0" style={{ animationDelay: "1.5s" }} />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-6 py-32 w-full">
+      <div className="relative z-10 mx-auto max-w-7xl px-6 py-20 w-full">
         <div className="max-w-3xl">
           {/* Badge */}
           <motion.div
