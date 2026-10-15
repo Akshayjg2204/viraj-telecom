@@ -1,8 +1,8 @@
-# 🎧 Viraj Telecom — Electronics Repair & Audio Solutions Platform
+# 🎧 Viraj Telecom — Electronics Repair & Audio Solutions Platform (Demo)
 
 <div align="center">
   <p align="center">
-    <b>A modern digital storefront and services platform for electronics repair and enterprise audio solutions.</b><br>
+    <b>A modern digital storefront and services demo website for electronics repair and enterprise audio solutions.</b><br>
     Engineered with Next.js 16, React 19, TypeScript, Tailwind CSS v4, Framer Motion, and Radix UI.
   </p>
 
